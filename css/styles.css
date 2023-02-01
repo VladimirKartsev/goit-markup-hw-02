@@ -109,7 +109,7 @@ body {
 .btn-hero {
       box-sizing: border-box;
       background-color: var(--color_cloud);
-      border: 1px solid var(--color_cornflower));
+      border: 1px solid var(--color_cornflower);
       border-radius: 4px;
       font-weight: 500;
       line-height: 1.5;
