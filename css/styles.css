@@ -15,7 +15,7 @@
 }
 
 body {
-   font-family: var(--font__primary, 'Arial', sans-serif);
+   font-family: var(--font_primary), 'Arial', sans-serif;
    color: var(--color_slate);
    background-color: var(--color_white);
    font-size: 16px;
@@ -72,7 +72,9 @@ body {
 .menu-list:focus {
    color: var(--color_ocean);
 }
-
+.current{
+   color: var(--color_iris);
+}
 .address-list {
    list-style: none;
   
@@ -108,14 +110,14 @@ body {
 
 .btn-hero {
       box-sizing: border-box;
-      background-color: var(--color_cloud);
+      background-color: var(--color_iris);
       border: 1px solid var(--color_cornflower);
       border-radius: 4px;
       font-weight: 500;
       line-height: 1.5;
       text-align: center;
       letter-spacing: 0.04em;
-      color: var(--color_iris);
+      color:var(--color_white);
       width: 116px;
       height: 48px;
       cursor: pointer;
@@ -139,6 +141,20 @@ body {
 .features-item {
    list-style: none;
    text-decoration: none;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
 }
 
 .features-title {
@@ -169,21 +185,18 @@ body {
    text-decoration: none;
 }
 
-.team {
-   list-style: none;
-}
 
 /* Our team */
 
-.team {
+.our-team {
    list-style: none;
 }
 
-.team{
+.our-team{
    background-color: var(--color_cloud);
 }
 
-.team-title {
+.title-section {
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
@@ -277,16 +290,16 @@ body {
    font-size: 16px;
 }
 
-.filter-button:active
-.filter-button:focus
+.filter-button:active,
+.filter-button:focus,
 .filter-button:hover {
    background-color: var(--color_ocean);
    box-shadow: 
    0px 3px 1px rgba(0, 0, 0, 0.1), 
-   0px 2px 1px rgba(0, 0, 0, 0.08),
+   0px 2px 1px rgba(0, 0, 0, 0.08), 
    0px 2px 2px rgba(0, 0, 0, 0.12);
    color: var(--color_white);
-   border-color: transparent;
+   border-color: transparent; */
 }
 
 .portfolio-item {
