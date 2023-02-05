@@ -13,7 +13,6 @@
   --font_primary: 'Roboto';
   --font_secondary: 'Raleway';
 }
-
 body {
    font-family: var(--font_primary), 'Arial', sans-serif;
    color: var(--color_slate);
@@ -38,6 +37,7 @@ body {
 /* Header */
 .header {
    border-bottom: 1px solid var(--color_cornflower);
+   
 }
 
 .logo {
@@ -53,13 +53,12 @@ body {
 
 .header-logo {
    color: var(--color_iris);
+ 
 }
-
 .menu {
    list-style: none;
    text-decoration: none;
 }
-
 .menu-list{
    font-weight: 500;
    line-height: 1.33;
@@ -77,7 +76,6 @@ body {
 }
 .address-list {
    list-style: none;
-  
 }
 
 .address-link-text {
@@ -97,6 +95,7 @@ body {
 /* Main section */
 .hero {
    background-color: var(--color_navy-blue);
+
 }
 
 .title-hero {
@@ -137,6 +136,7 @@ body {
 }
 
 /* Features section */
+
 
 .features-item {
    list-style: none;
@@ -333,4 +333,4 @@ body {
 .portfolio-text:hover,
 .portfolio-text:focus {
    color: var(--color_ocean);
-}
+
